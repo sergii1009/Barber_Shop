@@ -1,0 +1,31 @@
+.gallery {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 130px 55px;
+  position: relative;
+}
+.gallery__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+.gallery__text::after {
+  top: 137px;
+  left: 0;
+  position: absolute;
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+}
+.gallery__list {
+  display: flex;
+  margin-top: 44px;
+  gap: 30px;
+  padding: 0;
+}
