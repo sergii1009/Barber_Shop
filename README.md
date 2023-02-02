@@ -1,6 +1,5 @@
-# Barber_Shop
-#npm i
-
-#npm i - gulp
-
-#gulp
+# for init
+## ```npm i```
+## ```npm i - gulp```
+# for start
+## ```gulp```
