@@ -1,0 +1,170 @@
+
+.about_us{
+  padding: 130px 0;
+}
+.left_about_us{
+  display: flex;
+}
+.img_2_about_us{
+  margin-left: 30px;
+}
+.img_1_1_about_us{
+  display: none;
+}
+.img_2_2_about_us{
+  display: none;
+}
+
+.right_about_us{
+  margin-left: 64px;
+}
+.hr_about_us{
+  border-bottom: 1px solid #303030;
+  max-width: 60px;
+  width: 100%;
+  height: 9px;
+}
+.p_1_about_us{
+  margin-left: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #303030;
+}
+.text_about_us{
+  max-width: 500px;
+  width: 100%;
+}
+.h1_about_us{
+  margin-top: 4px;
+  margin-bottom: 20px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.p_2_about_us{
+  margin-bottom: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.p_3_about_us{
+  margin-bottom: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about_us_link:hover,
+.about_us_link:focus {
+  text-decoration: none;
+  color: #ff6c00;
+  transform: scale(1.1);
+}
+.btn_about_us{
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  display: block;
+  padding-top: 5px;
+  color: #303030;;
+}
+@media (max-width: 768px){
+  .about_us{
+    padding: 100px 0;
+  }
+  .left_about_us{
+    flex-direction: column;
+  }
+  .img_1_1_about_us{
+    margin-bottom: 30px;
+    display: block;
+  }
+  .img_2_2_about_us{
+    display: block;
+  }
+  .img_1_about_us{
+    display: none;
+  }
+  .img_2_about_us{
+    display: none;
+  }
+  .right_about_us{
+    margin-left: 30px;
+  }
+  .h1_about_us{
+    margin-top: 4px;
+    margin-bottom: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    color: #303030;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .about_us{
+    padding: 84px 0;
+  }
+  .left_about_us {
+    display: none;
+  }
+  .right_about_us {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .h1_about_us {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    color: #303030;
+  }
+  .p_2_about_us {
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #555555;
+  }
+  .p_3_about_us{
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #555555;
+  }
+}
+
+
